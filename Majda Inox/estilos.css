@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.logo {
+    margin-left: 50px;
+}
+
+.logo img {
+    max-height:  70px;
+}
+
+img {
+  height: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #708AD5;
+  color: #fff;
+    height: 150px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+    margin-right: 30px;
+}
+
+nav a {
+  display: block;
+  padding: 10px;
+}
+
+nav a:hover {
+  border: 1px solid #1D3C98;
+    border-radius: 5px;
+}
+
+section {
+  padding: 50px;
+}
+
+section h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-bottom: 2px solid #333;
+}
+
+.cajacontenedora {
+  display: flex;
+  justify-content: space-between;
+    margin: 30px;
+}
+
+.cajon {
+  margin: 10px;
+  filter: brightness(1.2);
+  
+}
+
+.cajon img {
+    border-radius: 10px;
+}
+
+.caja {
+  flex: 25%;
+  padding: 40px;
+  margin: 50px;
+  background-color: #FFFFFF;
+  border: 1px solid #333;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.boton {
+    background: none;
+    border: none;
+    min-width: 200px;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    width: 100%;
+}
+
+.caja:hover {
+    border: 2px solid #708AD5;
+}
+
+
+.cajacontenedora {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cajita {
+  flex: 50%;
+  margin: 40px;
+  padding: 60px;
+  background-color: #708AD5;
+  border: 1px solid #333;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column; 
+  align-items: center; 
+}
+
+.cajita img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.cajon {
+    flex: 50%;
+    margin-bottom: 0;
+   
+}
+
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+form#contact {
+  
+  padding: 20px;
+  border-radius: 5px;
+}
+
+form#contact input {
+    margin: 5px 0px 5px 0px;
+}
+
+form#contact h3 {
+  text-align: center;
+}
+
+
+form#contact input[type="text"],
+form#contact input[type="email"],
+form#contact input[type="tel"],
+form#contact textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form#contact textarea {
+  height: 100px;
+}
+
+form#contact button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #52A5EF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form#contact button[type="submit"]:hover {
+  background-color: #2F8BE8;
+}
+
+footer {
+  padding: 20px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
